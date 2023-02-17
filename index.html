@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="images/harry_potter.png" width="192" height="120" width="192" height="120">
+      <img id="img-txt" src="images/logo.png">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#form">Features</a></li>
+          <li><a class="nav-link" href="#form">How it Works</a></li>
+          <li><a class="nav-link" href="#form">Pricing</a></li>
+        </nav>
+      </ul>
+    </header>
+
+    <main>
+      <section id="form-section">
+        <h3 id="tagline">An online destination that offers you a spellbinding shopping experience.</h3>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="Enter your email">
+          <input value="Get Started" type="submit" id="submit">
+        </form>
+      </section>
+      <section id="2nd">
+        <h3 id="f-heading">Buy according to your Personality</h3>
+        <div id="grid-container">
+          <div class="grid">
+            <img id="lion" src="images/lion.png">
+            <div class="text-container">
+              <h3>Gryffindor</h3>
+              <p>You’re the type of person who likes to stand up for the little guy, challenges authority, has a tendency to act first and think later, is known as a class clown and takes board games very seriously.</p>
+            </div>
+          </div>
+          <div class="grid">
+              <img id="snake" src="images/snake.png">
+              <div class="text-container">
+                <h3>Slytherin</h3>
+                <p>You are most likely ambitious, shrewd and possibly destined for greatness. We can imagine you’re the kind of person who is always one step ahead, has a dark sense of humour, thinks reputation is important, takes pride in their appearance and doesn’t let anyone see their soft side.</p>
+              </div>
+            </div>
+            <div class="grid">
+              <img id="badger" src="images/badger.png">
+              <div class="text-container">
+                <h3>Hufflepuff</h3>
+                <p>You’re the type of person who has a strong moral compass, always works hard, is the most loyal friend, knows it is the taking part that counts and always has the best snacks.</p>
+              </div>
+            </div>
+            <div class="grid">
+              <img id="eagle" src="images/eagle.png">
+              <div class="text-container">
+                <h3>Ravenclaw</h3>
+                <p>You’re the type of person who analyses everything, is an overachiever, can be described as away with the fairies, is not afraid to be an individual and has a head stuffed full of interesting facts.</p>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+          <iframe id="video" height="315" src="https://www.youtube.com/embed/D4PbKUcfASE" frameborder="0" allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <div class="selling" id="letter">
+          <div class="product">Personalised Hogwarts Acceptance Letter</div>
+          <h2 class="price">£15.00</h2>
+          <ul class="pro-feats">
+            <li>1 x Personalised Hogwarts Acceptance Letter.</li>
+            <li>1 x Personalised Envelope.</li>
+            <li>1 x Supplies List.</li>
+            <li>1 x Adhesive Wax Seal.</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+
+        <div class="selling" id="frog">
+          <div class="product">Chocolate Frog</div>
+          <h2 class="price">£8.95</h2>
+          <ul class="pro-feats">
+            <li> Shaped confection of solid milk chocolate</li>
+            <li>ornately decorated pentagonal box with wizard card.</li>
+            <li>Cards exhibit 3-dimensional movement.</li>
+           </ul>
+          <button class="btn">SELECT</button>
+        </div>
+        <div class="selling" id="beans">
+          <div class="product" id="bertie">Bertie Bott's Every Flavour Beans</div>
+          <h2 class="price">£8.95</h2>
+          <ul class="pro-feats">
+            <li>Gourmet jelly beans coming in up to 20 flavours</li>
+            <li> Flavours include marshmallows, tutti-frutti, grass, soap, and earwax.</li>
+          </ul>
+          <button class="btn">SELECT</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="foo">
+        <p>Fictional Brand Tea Time created by Mrigakshi</p>
+      </div>
+    </footer>
+  </body>
+</html>
